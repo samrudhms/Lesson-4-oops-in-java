@@ -1,18 +1,18 @@
-class Employee{
+class Student{
     int phoneno;
     String name;
-    Float salary;
+    Float grade;
 
-    public Employee() {
+    public Student() {
         System.out.println();
         phoneno=998234816;
         name="Samrudh";
-        salary =200000f;
+        grade= 8f;
 
 
     }
     void displayDetails(){
-        System.out.println(phoneno+","+name+","+salary);
+        System.out.println(phoneno+","+name+","+grade);
     }
 
     
@@ -20,7 +20,7 @@ class Employee{
 }
 class oops{
     public static void main(String[] args) {
-        Employee e1= new Employee();
+        Student e1= new Student();
         e1.displayDetails();
     }
 }
